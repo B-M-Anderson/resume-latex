@@ -3,7 +3,8 @@ Ongoing LaTeX script for personal resume utilizing AltaCV document class and com
 
 # Bennett M. Anderson — Resume (LaTeX)
 
-This repository contains the source code for my resume, built using the [AltaCV](https://github.com/liantze/AltaCV) LaTeX class.
+This repository contains the source code for my resume, built using the [AltaCV](https://github.com/liantze/AltaCV) LaTeX class. 
+[Overleaf Viewership Link](https://www.overleaf.com/read/yyqswrhmfhcf#04ea61)
 
 ## 🔧 Features
 - Two-column layout for compact, professional presentation
