@@ -10,9 +10,10 @@ This repository contains the source code for my resume, built using the [AltaCV]
 - Modular sections with clear comments for editing
 
 ## 📁 Files
-- `resume.tex` — main LaTeX source
+- `Resume_BennettAnderson.zip` -
+- - `resume.tex` — main LaTeX source
+- - `altacv.cls` — AltaCV class file - currently un-customized
 - `README.md` — this file
-- altacv.cls — AltaCV class file - currently un-customized
 - `LatexResumeBennettAnderson` - The current/most recent output for example
 
 ## 🛠 How to Compile
