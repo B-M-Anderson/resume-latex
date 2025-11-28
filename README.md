@@ -1,6 +1,3 @@
-# resume-latex
-Ongoing LaTeX script for personal resume utilizing AltaCV document class and compiling with XeLaTeX
-
 # Bennett M. Anderson — Resume (LaTeX)
 
 This repository contains the source code for my resume, built using the [AltaCV](https://github.com/liantze/AltaCV) LaTeX class. 
