@@ -1,0 +1,185 @@
+\documentclass[10pt,letterpaper,withhyper]{altacv}
+
+% Page layout / font setup
+\geometry{left=1cm,right=1cm,top=1cm,bottom=0cm,columnsep=0.6cm}
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Heros} %free font change - resolves common errors
+
+% Make section headers smaller
+\renewcommand{\cvsectionfont}{\Large\bfseries}
+
+% Make subsection headers smaller (used in \cvevent titles)
+\renewcommand{\cvsubsectionfont}{\normalsize\bfseries}
+
+% Colors
+\definecolor{accent}{HTML}{111111}
+\definecolor{heading}{HTML}{000000}
+\definecolor{body}{HTML}{333333}
+\colorlet{heading}{heading}
+\colorlet{accent}{accent}
+\colorlet{emphasis}{accent}
+\colorlet{body}{body}
+
+% Layout engine
+\usepackage{paracol}
+\columnratio{0.7}
+
+\begin{document}
+\sloppy
+
+%%
+%%
+% Header - some tagline redundancy
+\name{Bennett M. Anderson}
+\tagline{Ames, IA • bmarc@iastate.edu • 815-821-9604 • Bennett-Anderson.com}
+\personalinfo{
+  \email{bmarc@iastate.edu}
+  \phone{815-821-9604}
+  \location{Ames, IA}
+  \linkedin{linkedin.com/in/bennett-m-anderson}
+  \github{github.com/B-M-Anderson}
+}
+\makecvheader
+
+\begin{paracol}{2}
+
+%
+% Right Column First
+\switchcolumn
+
+%%
+%%
+% Education Section
+\cvsection{Education}
+\cvevent{B.S. in Biomedical Engineering}{Iowa State University  -  3.53/4.00}{Expected May 2027}{}
+\begin{itemize}
+\item Minor in Pharmacology
+\end{itemize}
+
+\divider
+
+%%
+%%
+% Skills Section
+\cvsection{Skills \& Software}
+
+\cvtag{MATLAB}
+\cvtag{Python}
+\cvtag{LaTeX}
+\cvtag{SnapGene}
+\cvtag{PyMOL}
+\cvtag{SolidWorks}
+\cvtag{Experimental Design}
+\cvtag{Genomic Data Alignment}
+\cvtag{Protein Visualization}
+\cvtag{Microbiology Techniques}
+\cvtag{Technical Presentation}
+\cvtag{Git/GitHub}
+
+
+
+\divider
+
+%%
+%%
+% Involvement Section
+\cvsection{Local Involvement}
+\cvevent{Tutor}{Iowa State University}{Feb 2025 -- May 2025}{}
+\begin{itemize}
+\item Supported students in physics and biology.
+\end{itemize}
+
+\divider
+
+\cvevent{Model}{ISU Fashion Show}{Jan 2024 -- Apr 2024}{}
+\begin{itemize}
+\item Walked runway for 2 outfits + designer set.
+\item Collaborated with designers + directors.
+\end{itemize}
+
+\divider
+
+\cvevent{Volunteer}{Food at First}{2023 -- 2024}{}
+\begin{itemize}
+\item Helped provide food for community members in need.
+\end{itemize}
+
+%%
+%%
+% RIGHT COLUMN (now switch once)
+\switchcolumn
+
+
+%
+% Notificaiton header
+\begin{center}
+\colorbox{accent!10}{%
+  \parbox{\dimexpr\linewidth-2\fboxsep}{%
+    \centering
+    All Personal Projects \& Publications Available for Viewing\\
+    @ Bennett-Anderson.com
+  }
+}
+\end{center}
+
+%%
+%%
+% Experience Section
+\cvsection{Practical Experience}
+\cvevent{Undergraduate Research Assistant}{ISU Department of Chemical and Biological Engineering}{Jan 2025 -- Present}{}
+\begin{itemize}
+\item Designs experiments for identifying genetic knockdowns and validating selections.
+\item Performs transformations, minipreps, PCR, gels, and other standard protocols.
+\item Uses MATLAB/Python for low-bp alignment of noisy genomic sequences.
+\item Uses PyMOL for ligand binding + structural comparison.
+\item Collaborates with graduate student, meets with PI, and presents semesterly.
+\item BSL-1 trained with strong microbiology/biochemistry fundamentals.
+\end{itemize}
+
+\divider
+
+%%
+%%
+% Highlighted Projects Section
+\cvsection{Highlight / Recent Personal Project}
+
+\cvevent{Bennett-Anderson.com}{Personal Website}{}{}
+\begin{itemize}
+\item Designed and deployed a responsive portfolio site using Next.js, TypeScript, and Tailwind CSS.
+\item Implemented multi-device compatability of features, dark mode toggles, animated navigation, and project showcase with GitHub integration in a system designed for easy expansion.
+\item Hosted on Vercel with custom domain; demonstrates full-stack web development, UI design, and adaptive ability to quickly become productive with unfamilliar tools.
+\end{itemize}
+\divider
+
+
+%%
+%%
+% Leadership Section
+\cvsection{ISU Leadership Activities}
+\cvevent{Peer Mentor, BME 1040}{}{Jul 2024 -- Dec 2024}{}
+\begin{itemize}
+\item Led a roughly 20 freshmen class; weekly custom lesson plans.
+\item Held 1:1 goal-planning and support sessions.
+\item Coordinated and conducted events fostering positive faculty and student relationships.
+\end{itemize}
+
+\divider
+
+\cvevent{Lap Simulation \& Testing Engineer}{ISU FSAE Team}{Aug 2023 -- Nov 2024}{}
+\begin{itemize}
+\item Programmed MATLAB acceleration simulation to influence top-level design choices. 
+\item Modeled parts in SolidWorks for concept demos.
+\item Mentored new members; contributed to test days.
+\end{itemize}
+
+
+\end{paracol}
+
+%
+%% footnote
+\begin{center}
+\vspace*{-11pt}
+    \underline{\small\textit{Document personally designed in \LaTeX{}}}
+\end{center}
+
+\end{document}
