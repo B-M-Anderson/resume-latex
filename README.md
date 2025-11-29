@@ -3,6 +3,8 @@
 This repository contains the source code for my resume, built using the [AltaCV](https://github.com/liantze/AltaCV) LaTeX class. 
 [Overleaf Viewership Link](https://www.overleaf.com/read/yyqswrhmfhcf#04ea61)
 
+![Resume Preview](BennettAndersonResume1.png)
+
 ## 🔧 Features
 - Two-column layout for compact, professional presentation
 - XeLaTeX-compatible font setup using TeX Gyre Heros
@@ -11,8 +13,8 @@ This repository contains the source code for my resume, built using the [AltaCV]
 
 ## 📁 Files
 - `Resume_BennettAnderson.zip` -
-- - `resume.tex` — main LaTeX source
-- - `altacv.cls` — AltaCV class file - currently un-customized
+- - `main.tex` — main LaTeX source
+- - `altacv.cls` — AltaCV class file - currently un-customized - find at original source above
 - `README.md` — this file
 - `LatexResumeBennettAnderson` - The current/most recent output for example
 
